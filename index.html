@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script src="/js/index.js" type="module"></script>
+    <div class="wrap">
+      <div class="snake"></div>
+      <div class="menu">
+        <div>
+          <h1>Snake Game</h1>
+          <div class="menu__statistics">
+            <div class="menu__statistics-count best">
+              <div>Best:</div>
+              <div class="best__count">0</div>
+            </div>
+          </div>
+          <div class="menu__statistics">
+            <div class="menu__statistics-count store">
+              <div>Store:</div>
+              <div class="store__count">0</div>
+            </div>
+          </div>
+        </div>
+        <div class="menu__type">
+          <p>
+            <input id="class" type="checkbox" data-type="" />
+            <label for="class">Classic</label>
+          </p>
+          <p>
+            <input id="no_die" type="checkbox" data-type="noCube" />
+            <label for="no_die">No Die</label>
+          </p>
+          <p>
+            <input id="walls" type="checkbox" data-type="walls" />
+            <label for="walls">Walls</label>
+          </p>
+          <p>
+            <input id="portal" type="checkbox" data-type="two_wals" />
+            <label for="portal">Portal</label>
+          </p>
+          <p>
+            <input id="speed" type="checkbox" data-type="acceleration" />
+            <label for="speed">Speed</label>
+          </p>
+        </div>
+        <div class="menu__buttons">
+          <button id="play">Play</button>
+          <button id="stop">Exit</button>
+          <button id="menu">Menu</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

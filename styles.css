@@ -1,0 +1,59 @@
+body {
+  background: black;
+}
+.wrap {
+  display: flex;
+}
+.snake {
+  width: 400px;
+  height: 400px;
+  border: 12px solid #a96a0e;
+}
+.menu {
+  color: #ffffff;
+  background: #077482;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu h1 {
+  text-align: center;
+}
+.menu__statistics-count {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 70px 4px 16px;
+  margin-bottom: 20px;
+}
+.menu__statistics-count.best {
+  background: #075e6c;
+}
+.menu__statistics-count.store {
+  background: #074e5c;
+}
+
+.menu__type {
+  background: #195756;
+  padding-left: 8px;
+}
+.menu__type p {
+  background: #195756;
+  padding-left: 8px;
+  margin: 12px 0px;
+}
+
+.menu__buttons {
+  margin: auto;
+  display: flex;
+  gap: 16px;
+}
+
+.menu__buttons button {
+  color: #ffffff;
+  background: #245450;
+  margin: auto;
+  width: 60px;
+  height: 40px;
+}
